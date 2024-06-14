@@ -1,4 +1,4 @@
-# singletonpractice
+# SingleTon Practice
 
 A new Flutter project.
 
