@@ -50,7 +50,9 @@ class HomeScreen extends StatelessWidget {
         children: [
           Center(child: Text('Done')),
           ElevatedButton(onPressed: (){
-            controller.sum = 2 + 2 ;
+            controller.sum = 1 + 2 ;
+            //controller.sumation();
+            //controller.testing();
             Navigator.push(context , MaterialPageRoute(builder: (context) => SecondPage()));
           }, child: Text('Click'))
         ],

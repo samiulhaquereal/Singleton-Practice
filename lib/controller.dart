@@ -7,6 +7,19 @@ class ListController {
     return _instance!;
   }
 
-  int sum = 0;
+  int _sum = 0;
+
+  int get sum => _sum;
+  set sum(int value){
+    _sum = value;
+  }
+
+  void sumation(){
+    _sum = 10 + 10;
+  }
+
+  void testing(){
+    print('Test Done');
+  }
 
 }
